@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <style name="Button">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_marginTop">@dimen/grid_1</item>
+        <item name="android:layout_marginBottom">@dimen/grid_1</item>
+        <item name="android:layout_marginLeft">@dimen/grid_2</item>
+        <item name="android:layout_marginRight">@dimen/grid_2</item>
+    </style>
+
+    <style name="AppTheme" parent="Theme.AppCompat.Light.DarkActionBar">
+        <item name="colorPrimary">@color/primary</item>
+        <item name="colorPrimaryDark">@color/primary_dark</item>
+        <item name="colorAccent">@color/accent</item>
+
+        <item name="actionOverflowButtonStyle">@style/OverFlow</item>
+    </style>
+
+    <!--<style name="AppThemeDark" parent="Theme.AppCompat">-->
+        <!--<item name="colorPrimary">@color/primary</item>-->
+        <!--<item name="colorPrimaryDark">@color/primary_dark</item>-->
+        <!--<item name="colorAccent">@color/accent</item>-->
+
+        <!--<item name="actionOverflowButtonStyle">@style/OverFlow</item>-->
+    <!--</style>-->
+
+    <style name="JayneHatDialogTheme" parent="SDL.Dialog">
+        <item name="sdlTextPrimaryColor">@color/jayne_text_primary_light</item>
+        <item name="sdlTextSecondaryColor">@color/jayne_text_secondary_light</item>
+        <item name="sdlDividerColor">@color/jayne_divider_light</item>
+        <item name="sdlPressedColor">@color/jayne_pressed_light</item>
+        <item name="colorAccent">@color/jayne_accent</item>
+    </style>
+
+    <style name="OverFlow" parent="Widget.AppCompat.ActionButton.Overflow">
+        <item name="android:src">@drawable/ic_menu</item>
+    </style>
+</resources>
